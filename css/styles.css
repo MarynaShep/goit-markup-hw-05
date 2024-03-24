@@ -590,6 +590,7 @@ button {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  border: none;
 }
 .check-text {
   display: flex;
@@ -625,12 +626,18 @@ button {
 .footer-over-right {
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-text-three {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-input {
@@ -639,12 +646,15 @@ button {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-.footer-input::placeholder {
+  background-color: transparent;
+  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-input::placeholder {
   color: #fff;
 }
 
@@ -659,4 +669,16 @@ button {
   width: 165px;
   height: 40px;
   background: #4d5ae5;
+  min-width: 165px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.footer-button-icon {
+  margin-left: 16px;
 }
